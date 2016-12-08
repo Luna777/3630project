@@ -1,0 +1,10 @@
+
+
+.bglayer{
+  background-image: url("bg3.png");
+  
+  background-size: 100px;
+  background-repeat: repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
