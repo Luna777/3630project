@@ -1,0 +1,15 @@
+slide effect
+<a href="#pagetwo" data-transition="slide">Slide to Page Two</a>
+
+data-transition="slide"
+data-transition="slidedown"
+
+<link rel="stylesheet" href="style.css">
+
+
+<div class="bglayer">
+
+
+
+</div>
+
