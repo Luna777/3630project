@@ -34,7 +34,8 @@ data-transition="slidedown"
 						
 			</div>
 		
-
+jQuery on w3schools
+http://www.w3schools.com/jquery/
 
 animaiton 
 http://www.w3schools.com/css/css3_animations.asp
