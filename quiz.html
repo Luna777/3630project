@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh content="0.1">
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -13,46 +12,8 @@
 </head>
 
 <body>
+<script src="quiz.js"></script>
 
-<script type="text/javascript">
-function getans(){
-	var ans1 = document.querySelector('.q1:checked').value;
-	var ans2 = document.querySelector('.q2:checked').value;
-	var ans3 = document.querySelector('.q3:checked').value;
-	var ans4 = document.querySelector('.q4:checked').value;
-	var ans5 = document.querySelector('.q5:checked').value;
-	if(ans1==1){
-		document.getElementById("output1").innerHTML="Correct!";
-	}else{
-		document.getElementById("output1").innerHTML="Wrong, try again.";
-	}
-	
-	if(ans2==3){
-		document.getElementById("output2").innerHTML="Correct!";
-	}else{
-		document.getElementById("output2").innerHTML="Wrong, try again.";
-	}
-	
-	if(ans3==3){
-		document.getElementById("output3").innerHTML="Correct!";
-	}else{
-		document.getElementById("output3").innerHTML="Wrong, try again.";
-	}
-	
-	if(ans4==3){
-		document.getElementById("output4").innerHTML="Correct!";
-	}else{
-		document.getElementById("output4").innerHTML="Wrong, try again.";
-	}
-	
-	if(ans5==3){
-		document.getElementById("output5").innerHTML="Correct!";
-	}else{
-		document.getElementById("output5").innerHTML="Wrong, try again.";
-	}
-}
-
-</script>
 
 <div data-role="page">
 
@@ -64,6 +25,7 @@ function getans(){
 		<div class="bglayer">
 		
 			<div style="padding-left:15px;">
+			
 				<br>
 				QUESTION 1: XXXXXXXXX
 				<form method="get" onsubmit="alert('no checking out'); return false;">
