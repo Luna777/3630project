@@ -82,7 +82,7 @@
   	white-space:nowrap; /* Keeps the content on a single line */
   	width: 30em;
 
-  	animation: type 2s steps(60, end);
+  	animation: type 4s steps(60, end);
 
 }
 
