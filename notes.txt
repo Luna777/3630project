@@ -17,7 +17,7 @@ data-transition="slidedown"
 
 
 <span style="color:brown">  </span>
-
+<span style="color:">  </span>
 			<div class="samplecode">
 				
 			</div>
@@ -47,3 +47,6 @@ http://stackoverflow.com/questions/10835500/how-to-change-text-transparency-in-h
 
 gif words generate
 http://textanim.com/ 
+
+multiple groups of radio buttons using javascript
+https://www.youtube.com/watch?v=ze9ib99LvhY
