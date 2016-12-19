@@ -6,8 +6,14 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo1.svg" alt="logo1.png">
+
+
 </head>
+
 <body>
+<script src="quiz.js"></script>
+
 
 <div data-role="page">
 
@@ -17,9 +23,43 @@
 
 	<div data-role="main" >
 		<div class="bglayer">
-			<div>
-			<img src="pic1.png" alt="house frame, class" style="width:304px;height:228px;">
+		
+			<div style="padding-left:15px;">
+			
+				<br>
+				QUESTION 1: XXXXXXXXX
+				<form method="get" onsubmit="alert('no checking out'); return false;">
+				<input type="radio" style="margin-top:0.1px" name="q1" class="q1" value="1" onchange="getans()"> 
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A: 123456789
+				<input type="radio" style="margin-top:0.1px" name="q1" class="q1" value="2" onchange="getans()"> 
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp B: 123456789
+				<br><b id="output1"></b><br>
+				<br>
+				QUESTION 2: XXXXXXXXX
+				<input type="radio" style="margin-top:0.1px" name="q2" class="q2" value="5" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A: 123456789
+				<input type="radio" style="margin-top:0.1px" name="q2" class="q2" value="6" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp B: 123456789
+				<br><b id="output2"></b><br>
+				<br>
+				QUESTION 3: XXXXXXXXX
+				<input type="radio" style="margin-top:0.1px" name="q3" class="q3" value="9" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A: 123456789
+				<input type="radio" style="margin-top:0.1px" name="q3" class="q3" value="10" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp B: 123456789
+				<br><b id="output3"></b><br>
+				<br>
+				QUESTION 4: XXXXXXXXX
+				<input type="radio" style="margin-top:0.1px" name="q4" class="q4" value="13" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A: 123456789
+				<input type="radio" style="margin-top:0.1px" name="q4" class="q4" value="14" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp B: 123456789
+				<br><b id="output4"></b><br>
+				<br>
+				QUESTION 5: XXXXXXXXX
+				<input type="radio" style="margin-top:0.1px" name="q5" class="q5" value="17" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A: 123456789
+				<input type="radio" style="margin-top:0.1px" name="q5" class="q5" value="18" onchange="getans()"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp B: 123456789
+				<br><b id="output5"></b><br>
+				<br>
+				
+				<br>
 			</div>
+			
+
 		</div>
 	</div>
   
@@ -34,6 +74,9 @@
 	</div>
 	
 </div> 
+
+
+
 
 </body>
 </html>

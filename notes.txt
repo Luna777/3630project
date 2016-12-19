@@ -1,3 +1,5 @@
+<div style="font-size:50px;text-align:center;border:5px solid black; margin:10px">JAVA IS A HOUSE
+		</div>
 slide effect
 <a href="#pagetwo" data-transition="slide">Slide to Page Two</a>
 
@@ -12,4 +14,63 @@ data-transition="slidedown"
 
 
 </div>
+
+
+<span style="color:brown">  </span>
+<span style="color:">  </span>
+			<div class="samplecode">
+				
+			</div>
+				
+			<div class="text1">
+					
+			</div>
+				
+			<div class="text2">
+					
+			</div>
+
+			<div class="text3">
+						
+			</div>
+		
+jQuery on w3schools
+http://www.w3schools.com/jquery/
+
+animaiton 
+http://www.w3schools.com/css/css3_animations.asp
+
+typing text animation
+https://codepen.io/rusjames/pen/uAFhE 
+
+How to change text transparency in html/css?
+http://stackoverflow.com/questions/10835500/how-to-change-text-transparency-in-html-css
+
+gif words generate
+http://textanim.com/ 
+
+multiple groups of radio buttons using javascript
+https://www.youtube.com/watch?v=ze9ib99LvhY
+--------------------------
+
+how to use photoshop to create gif
+https://www.youtube.com/watch?v=T9TN5tPcfIs 
+	window-timeline (or window-workspace-motion)
+		make new frame in timeline, then change each frame
+		repeat to forever
+		can only do animation by showing/hiding layers
+	file-export-save for web(legancy)...
+
+
+
+
+
+
+
+
+
+
+
+
+
 
