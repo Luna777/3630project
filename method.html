@@ -18,9 +18,88 @@
 
 	<div data-role="main" >
 		<div class="bglayer">
-			<div>
-			<img src="gifmethod.gif" alt="house frame, class" style="width:90%;height:90%;">
+		
+			<div class="samplecode">
+				<u>Sample code: </u>
+				<br>
+				public class MyProgram{ 
+				<br>
+					&nbsp&nbsp&nbsp&nbsppublic static void main(String[] args){
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspint numb1 = 10;
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspint numb2 = 5;
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspint sum = sumNumbers(numb1, numb2);
+				<br>
+        		<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSystem.out.println( numb1 );
+				<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSystem.out.println( numb2 );
+				<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSystem.out.println( sum );
+
+				<br>
+					&nbsp&nbsp&nbsp&nbsp}
+					
+					<br>
+					&nbsp&nbsp&nbsp&nbsppublic static int sumNumbers(int n1, int n2){
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspint n3 = n1 + n2;
+						
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn n3;
+					
+					<br>
+					&nbsp&nbsp&nbsp&nbsp}
+					
+				<br>} 
+				<br><u>Output:</u>
+				<br>10
+				<br>5
+				<br>15
+				
 			</div>
+			
+			<br>
+			<div class="text1">
+				In the last topic, we sum the two integers by using "+" in the statement. Now let's try another way. Let's call a function to make a sum. 
+				<br>
+In the sample code, there is another method that looks like main method but under it. It is a part of our class MyProgram. It called sumNumbers: 
+			</div>
+
+			<div class="text2">
+					<span style="color:brown">&nbsp&nbsp&nbsp&nbsppublic static int sumNumbers(int n1, int n2){</span>
+					
+					<br>
+        				<span style="color:brown">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspint n3 = n1 + n2;</span>
+						
+					<br>
+        				<span style="color:brown">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn n3;</span>
+					
+					<br>
+					<span style="color:brown">&nbsp&nbsp&nbsp&nbsp}</span>
+			</div>
+			<br>
+			<div class="text3">
+				The title line of the method has several elements. "public" means the method is open to public that other statement could call it. "static" means it is a static method that always loaded in memory. "int" is the return type and it means calling the method could get an integer result back. "sumNumbers" is the name of method, and it followed by parentheses. Inside parentheses, "int n1" and "int n2" are the input parameters, and they are separated by comma. 
+				<br>
+				The content are two statements. "int n3 = n1+ n2;" is making n3 a sum of input parameters n1 and n2. "return n3; " is going to return the value of n3. We just said that this method's return type is "int", that means "n3" which is the value that returns must be an "int", otherwise it will be a mistake. 
+				<br>
+				Overall, method "sumNumbers" is going to read in two integer input parameters, and make a sum of them, then return the value of the sum. 
+			</div>
+			<br>
+			<div class="text4">
+				Now, let's use the "sumNumbers" method. In the main method, we have two integers "numb1" and "numb2", and they are 10 and 5. The 3rd int is "sum". The value of "sum" is the return value of method "sumNumbers(numb1, numb2)" which is the sum of "numb1" and "numb2", so "sum" is going to be 15.
+				<br>
+				The output is showing the values of numb1, numb2 and sum.
+				<br>
+				<br>
+				(continue to another Method example)
+
+			</div>
+			<br>
 		</div>
 	</div>
   
@@ -29,7 +108,7 @@
 		  <ul>
 			<li><a href="#" class="ui-btn" data-rel="back">Go Back</a></li>
 			<li><a href="overview.html" data-transition="slidedown">Overview</a></li>
-			<li><a href="grammar.html" data-transition="slide">Next</a></li>
+			<li><a href="method2.html" data-transition="slide">Next</a></li>
 		  </ul>
 		</div>
 	</div>
