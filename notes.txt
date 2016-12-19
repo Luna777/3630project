@@ -51,3 +51,30 @@ http://textanim.com/
 
 multiple groups of radio buttons using javascript
 https://www.youtube.com/watch?v=ze9ib99LvhY
+--------------------------
+
+how to use photoshop to create gif
+https://www.youtube.com/watch?v=T9TN5tPcfIs 
+	window-timeline (or window-workspace-motion)
+		make new frame in timeline, then change each frame
+		repeat to forever
+		can only do animation by showing/hiding layers
+	file-export-save for web(legancy)...
+
+----------------------------
+mp3 sources:
+
+http://www.flashkit.com/loops/Easy_Listening/Jazz/Bongo_Be-Beyonda-9953/index.php 
+http://www.flashkit.com/loops/Easy_Listening/Instrumental/marimba-melody-141228093019.html
+
+
+
+
+
+
+
+
+
+
+
+

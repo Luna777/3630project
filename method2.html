@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo1.svg" alt="logo1.png">
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>Method</h1>
+	</div>
+
+	<div data-role="main" >
+		<div class="bglayer">
+		
+			<div class="samplecode">
+				<u>Sample code: </u>
+				<br>
+				public class MyProgram{ 
+				<br>
+					&nbsp&nbsp&nbsp&nbsppublic static void main(String[] args){
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspString drink = kitchen("apple and water");
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSystem.outprintln( drink );
+				<br>
+				<br>
+	   					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspString food = kitchen("water and raw rice");
+				<br>
+        		
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSystem.out.println( food );
+				
+
+				<br>
+					&nbsp&nbsp&nbsp&nbsp}
+					
+					<br>
+					&nbsp&nbsp&nbsp&nbsppublic static String kitchen(String items){
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif(items == "water and raw rice"){
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbspreturn "cooked rice";
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspelse if(items == "apple and water"){
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbspreturn "apple juice";
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspelse{
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbspreturn "empty";
+					
+					<br>
+        				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}
+					
+					<br>
+					&nbsp&nbsp&nbsp&nbsp}
+					
+				<br>} 
+				<br><u>Output:</u>
+				<br>apple juice
+				<br>cooked rice
+				
+			</div>
+			
+			<br>
+			<div class="text1">
+				This is a more practical example of using method. In the sample code,  method "kitchen" is going to read a String parameter items. The return type of "kitchen" is also String. 
+				<br>
+				Inside the method, there are a set of if-else statement. For the details of using if-else statement, we are going to explain them later (maybe in next app). Here is a simple explanation:  
+				
+			</div>
+
+			<div class="text2">
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe first if is asking does "items" equal to "water and raw rice", if true, return the String "cooked rice", if false, go to the second condition. The second condition (else if) is asking does items equal to "apple and water", if ture, return "apple juice", otherwise go the third condition (else). The last "else" is for every other situations, and it will return "empty". 
+
+
+			</div>
+			<br>
+			<div class="text3">
+				In the main method, we set up a String "drink" and we let the method "kitchen" read in "apple and water", then the return value of kitchen, "apple juice", is assigned to "drink".
+				<br>
+				The next example "String food = kitchen("water and raw rice");" is the same. 
+				<br>
+				<br>
+				Therefore, by using method "kitchen", we get our variables "drink" and "food" done. 
+			</div>
+			<br>
+			<div class="text4">
+				From the method "sum" and method "kitchen" examples, we learned that method is doing more actions for our program. It is made of some related statements that will doing a particular job, such as doing sum or as kitchen job. It is like <span style="color:red">a functional room in a house</span>, like a room of doing calculation or a room as kitchen to bring in items and bring out well made food. A method could simple or complicated as we need. 
+
+
+			</div>
+			
+			<div>
+			<img src="gifmethod.gif" alt="house frame, class" style="width:90%;height:90%;">
+			</div>
+		</div>
+	</div>
+  
+    <div data-role="footer">
+		<div data-role="navbar">
+		  <ul>
+			<li><a href="#" class="ui-btn" data-rel="back">Go Back</a></li>
+			<li><a href="overview.html" data-transition="slidedown">Overview</a></li>
+			<li><a href="grammar.html" data-transition="slide">Next</a></li>
+		  </ul>
+		</div>
+	</div>
+	
+</div> 
+
+</body>
+</html>
